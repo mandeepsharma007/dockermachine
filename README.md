@@ -21,8 +21,8 @@ $ sudo dpkg -i virtualbox-5.1_5.1.22-115126~Ubuntu~xenial_amd64.deb <br />
 ### IF "Package Error" Re-run 
 $ sudo apt-get -f install
 
-### Error with pre-create check: "This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory
-### Enable VT from BIOS Re-run 
+##### Error with pre-create check: "This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory
+##### Enable VT from BIOS Re-run 
 
 ## Creating Swarm Cluster using Docker Machine
 
