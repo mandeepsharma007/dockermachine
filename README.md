@@ -35,4 +35,22 @@ $ sudo docker-machine create -d virtualbox --virtualbox-cpu-count="1" --virtualb
 
 $ sudo docker-machine ls 
 
+## Exploring enviornment of nodes 
+
+$ sudo docker-machine env swarmmanager <br />
+
+## Switching to Swarmmanager Machine 
+
+$ eval $(docker-machine env swarmmanager)
+
+## Initate a container for funtionality check 
+
+$ docker run hello-world <br />
+
+## Switching back to main Docker host, Below command unset enviornment of swarmanager to switch you back to Docker host
+
+$ eval $(docker-machine env -u)
+
+## 
+
 
