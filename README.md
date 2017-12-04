@@ -3,6 +3,7 @@
 
 #### Install Docker machine on Linux , For OS other than Linux please go to link https://docs.docker.com/machine/install-machine/
 
+$ sudo apt-get update -y <br />
 $ sudo curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine <br />
 $ sudo chmod +x /tmp/docker-machine <br />
 $ sudo cp /tmp/docker-machine /usr/local/bin/docker-machine <br />
@@ -25,4 +26,13 @@ $ sudo apt-get -f install
 ##### Enable VT from BIOS Re-run 
 
 ## Creating Swarm Cluster using Docker Machine
+
+$ sudo docker-machine create -d virtualbox --virtualbox-cpu-count="1" --virtualbox-disk-size="4000" --virtualbox-memory="1024" swarmmanager <br />
+$ sudo docker-machine create -d virtualbox --virtualbox-cpu-count="1" --virtualbox-disk-size="4000" --virtualbox-memory="1024" swarmnode1 <br />
+$ sudo docker-machine create -d virtualbox --virtualbox-cpu-count="1" --virtualbox-disk-size="4000" --virtualbox-memory="1024" swarmnode2 <br />
+
+## Verify Swarm Cluster
+
+$ sudo docker-machine ls 
+
 
