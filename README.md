@@ -1,4 +1,4 @@
-# dockermachine
+# Docker-Machine
 ### Docker machine installation and configuration guide 
 #### Install Docker machine on Linux , For OS other than Linux please go to link https://docs.docker.com/machine/install-machine/
 $ curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine
