@@ -40,7 +40,8 @@ $ sudo docker-machine ls
 $ sudo docker-machine env swarmmanager <br />
 
 ## Switching to Swarmmanager Machine 
-
+$ docker-machine ssh swarmmanager
+OR
 $ eval $(docker-machine env swarmmanager)
 
 ## Initate a container for funtionality check 
