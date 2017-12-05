@@ -39,9 +39,9 @@ $ sudo docker-machine ls
 
 $ sudo docker-machine env swarmmanager <br />
 
-## Switching to Swarmmanager Machine 
-$ docker-machine ssh swarmmanager
-OR
+## Switching to Swarmmanager Machine, or any node docker-machine ssh <nodename> 
+$ docker-machine ssh swarmmanager <br />
+OR <br />
 $ eval $(docker-machine env swarmmanager)
 
 ## Initate a container for funtionality check 
@@ -50,8 +50,10 @@ $ docker run hello-world <br />
 
 ## Switching back to main Docker host, Below command unset enviornment of swarmanager to switch you back to Docker host
 
+$ exit <br />
+OR <br />
 $ eval $(docker-machine env -u)
 
-## 
+###
 
 
