@@ -60,29 +60,16 @@ $ exit
 OR
 $ eval $(docker-machine env -u)
 ```
-### Docker Machine Help
-
-  **active**                Print which machine is active 
-  config                Print the connection config for machine 
-  create                Create a machine
-  env                   Display the commands to set up the environment for the Docker client
-  inspect               Inspect information about a machine
-  ip                    Get the IP address of a machine
-  kill                  Kill a machine
-  ls                    List machines
-  regenerate-certs      Regenerate TLS Certificates for a machine
-  restart               Restart a machine
-  rm                    Remove a machine
-  ssh                   Log into or run a command on a machine with SSH.
-  scp                   Copy files between machines
-  start                 Start a machine
-  status                Get the status of a machine
-  stop                  Stop a machine
-  upgrade               Upgrade a machine to the latest version of Docker
-  url                   Get the URL of a machine
-  
-  
-  ## Docker Machine on Cloud / AWS 
+## Docker Machine subcommands 
+```
+$ docker-machine --help
+```
+## Docker Machine on Cloud / AWS 
+```
+$ apt-get -y install awscli
+$ aws configure (Provide credentials for login)
+$ docker-machine create -d amazonec2 --amazonec2-access-key=details --amazonec2-secret-key=details --amazonec2-vpc-id=vpc-8eff81e9 --amazonec2-region=us-west-2 sevendockermachine
+```
 
 
 
