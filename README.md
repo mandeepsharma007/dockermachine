@@ -69,6 +69,7 @@ $ docker-machine --help
 $ apt-get -y install awscli
 $ aws configure (Provide credentials for login)
 $ docker-machine create -d amazonec2 --amazonec2-access-key=details --amazonec2-secret-key=details --amazonec2-vpc-id=vpc-8eff81e9 --amazonec2-region=us-west-2 sevendockermachine
+$ docker-machine ssh sevendockermachine
 ```
 
 
