@@ -3,11 +3,12 @@
 
 #### Install Docker machine on Linux , For OS other than Linux please go to link https://docs.docker.com/machine/install-machine/
 
-`$ sudo apt-get update -y` <br />
+```
+$ sudo apt-get update -y` <br />
 $ sudo curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` >/tmp/docker-machine <br />
 $ sudo chmod +x /tmp/docker-machine <br />
 $ sudo cp /tmp/docker-machine /usr/local/bin/docker-machine <br />
-
+```
 ### Installation verification 
 
 $ sudo docker-machine version
