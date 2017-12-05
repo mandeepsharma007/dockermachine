@@ -54,6 +54,51 @@ $ exit <br />
 OR <br />
 $ eval $(docker-machine env -u)
 
-###
+### Docker Machine Help
+
+$ docker-machine --help <br />
+Usage: docker-machine [OPTIONS] COMMAND [arg...] <br />
+
+Create and manage machines running Docker.<br />
+
+Version: 0.4.0 (9d0dc7a)<br />
+
+Author:<br />
+  Docker Machine Contributors - <https://github.com/docker/machine><br />
+
+Options:<br />
+  --debug, -D                                   Enable debug mode<br />
+  -s, --storage-path "/root/.docker/machine"    Configures storage path [$MACHINE_STORAGE_PATH]<br />
+  --tls-ca-cert                                 CA to verify remotes against [$MACHINE_TLS_CA_CERT]<br />
+  --tls-ca-key                                  Private key to generate certificates [$MACHINE_TLS_CA_KEY]<br />
+  --tls-client-cert                             Client cert to use for TLS [$MACHINE_TLS_CLIENT_CERT]<br />
+  --tls-client-key                              Private key used in client TLS auth [$MACHINE_TLS_CLIENT_KEY]<br />
+  --native-ssh                                  Use the native (Go-based) SSH implementation. [$MACHINE_NATIVE_SSH]<br />
+  --help, -h                                    show help<br />
+  --version, -v                                 print the version<br />
+
+Commands:<br />
+  active                Print which machine is active<br />
+  config                Print the connection config for machine<br />
+  create                Create a machine<br />
+  env                   Display the commands to set up the environment for the Docker client<br />
+  inspect               Inspect information about a machine<br />
+  ip                    Get the IP address of a machine<br />
+  kill                  Kill a machine<br />
+  ls                    List machines<br />
+  regenerate-certs      Regenerate TLS Certificates for a machine<br />
+  restart               Restart a machine<br />
+  rm                    Remove a machine<br />
+  ssh                   Log into or run a command on a machine with SSH.<br />
+  scp                   Copy files between machines<br />
+  start                 Start a machine<br />
+  status                Get the status of a machine<br />
+  stop                  Stop a machine<br />
+  upgrade               Upgrade a machine to the latest version of Docker<br />
+  url                   Get the URL of a machine<br />
+  help, h               Shows a list of commands or help for one command<br />
+  
+  ## Docker Machine on Cloud / AWS 
+
 
 
