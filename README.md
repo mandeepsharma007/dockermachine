@@ -65,6 +65,7 @@ $ eval $(docker-machine env -u)
 $ docker-machine --help
 ```
 ## Docker Machine on Cloud / AWS 
+### Below steps install EC2 instance with docker latest pre-install and manageable by docker-machine
 ```
 $ apt-get -y install awscli
 $ aws configure (Provide credentials for login)
