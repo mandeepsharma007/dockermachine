@@ -1,7 +1,7 @@
 # Docker-Machine
 ### Docker machine installation and configuration guide OS Ubuntu
 
-#### Install Docker machine on Linux , For OS other than Linux please go to link [ Docker-Machine (https://docs.docker.com/machine/install-machine)]
+#### Install Docker machine on Linux , For OS other than Linux please go to link [Docker-Machine] (https://docs.docker.com/machine/install-machine)
 
 ```
 $ sudo apt-get update -y 
