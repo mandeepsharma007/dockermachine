@@ -39,7 +39,7 @@ $ sudo docker-machine ls
 
 $ sudo docker-machine env swarmmanager <br />
 
-## Switching to Swarmmanager Machine, or any node $ docker-machine ssh "<nodename>" 
+## Switching to Swarmmanager Machine, or any node $ docker-machine ssh "nodename" 
 $ docker-machine ssh swarmmanager <br />
 OR <br />
 $ eval $(docker-machine env swarmmanager)
