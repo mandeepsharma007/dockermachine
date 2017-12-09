@@ -19,7 +19,7 @@ $ sudo docker-machine version
 
 ## Virtual box installation 
 ```
-$ sudo apt-get install curl (Optional if curl package is not available)
+$ sudo apt-get install curl -y
 $ sudo cd /tmp/ && sudo curl -O http://download.virtualbox.org/virtualbox/5.1.22/virtualbox-5.1_5.1.22-115126~Ubuntu~xenial_amd64.deb
 $ sudo dpkg -i virtualbox-5.1_5.1.22-115126~Ubuntu~xenial_amd64.deb
 ```
