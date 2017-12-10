@@ -6,7 +6,7 @@ For OS other than Linux please go to link [Docker Machine] (https://docs.docker.
 
 ```
 $ sudo apt-get update -y 
-$ sudo curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine-`uname -s`-`uname -m` > /tmp/docker-machine 
+$ sudo curl -L https://github.com/docker/machine/releases/download/v0.13.0/docker-machine -`uname -s`-`uname -m` > /tmp/docker-machine 
 $ sudo chmod +x /tmp/docker-machine 
 $ sudo cp /tmp/docker-machine /usr/local/bin/docker-machine
 ```
